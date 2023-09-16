@@ -1,0 +1,41 @@
+</script>
+		
+				<meta name='adsbytrafficjunkycontext'  data-hb-guid='8B138F40-1010-4D02-A54E-A1A49FF7CA50' data-custom-param='&amp;noc=0' data-platform='pc' data-site='pornhub' data-site-id='2' data-context-page-type='home' data-info='{&quot;actor_id&quot;:null,&quot;content_type&quot;:null,&quot;video_id&quot;:null,&quot;session_id&quot;:&quot;827936348856681109&quot;,&quot;timestamp&quot;:1694848119,&quot;hash&quot;:&quot;a7db5053764b7951f8956977ec2957ea&quot;}' data-refresh-times='2' data-refresh-delay='240' data-domain-rewrite='www.pornhub.com/_xa' />
+							<link rel="preload" href="https://static.trafficjunky.com/invocation/embeddedads/production/embeddedads.es6.min.js" as="script">
+				<script async>
+							var tjEmbeddedAdsDuration = new Date().getTime();
+						(function(env) {
+				var addTjScript = function (url) {
+					var script   = document.createElement('script');
+					script.type  = 'text/javascript';
+					script.async = true;
+					script.src   =  url;
+
+					document.getElementsByTagName('head')[0].appendChild(script);
+				}
+
+				
+					var supportsES6 = function() {
+						try {
+							new Function('(a = 0) => a');
+
+							if (/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) { // IOS10 fix
+								return parseInt(navigator.userAgent.match(/OS [\d_]+/i)[0].substr(3).split('_')[0]) !== 10;
+							}
+
+							return true;
+						}
+						catch (err) {
+							return false;
+						}
+					}();
+
+					var version = 'es5';
+					if (typeof Promise !== 'undefined' && Promise.toString().indexOf('[native code]') !== -1 && supportsES6) {
+						version = 'es6';
+					}
+
+					addTjScript('https://static.trafficjunky.com/invocation/embeddedads/' + env + '/embeddedads.' + version + '.min.js');
+													addTjScript('https://static.trafficjunky.com/invocation/popunder/' + env + '/popunder.min.js');
+							})('production');
+		</script>
