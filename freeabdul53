@@ -1,0 +1,48 @@
+<script type='text/javascript'>
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for ( var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ')
+            c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0)
+            return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+}
+
+var pl_did = readCookie("pl_did");
+var pl_p = localStorage.pl;
+</script>                <script type='text/javascript'>
+    //<![CDATA[
+        var iaw = iaw || {};
+        iaw.que = iaw.que || [];
+        iaw.cmd = iaw.cmd || [];
+        iaw.que.push(function() {
+            iaw.setPageLabels([ "resp", "wprod" ]);
+            iaw.setPageLayout("home_main");
+
+            var pageCriteria = { "pc": "home", "sfr": "cdo_home", "l": "en", "tc": "resp" };
+            if(pl_p) pageCriteria.alc_pr = pl_p.split(",");
+
+            iaw.setPageCriteria(pageCriteria);
+            iaw.setDfpCollapseEmptyDivs(false);
+
+            iaw.setCountry("TR");
+
+                        
+            
+            iaw.enablePrebidAnalytics();
+
+                    });
+
+                iaw.getRewardedAdDailyLimit = function() {
+            if(typeof iaw.getRewardedAdDailyLimitFromIaw == 'function') {
+                return iaw.getRewardedAdDailyLimitFromIaw();
+            }
+
+            return 0;
+        };
+    //]]>
+    </script>
