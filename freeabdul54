@@ -1,0 +1,183 @@
+</div>
+		<header class="row">
+			<div class="container column">
+				<div class="top-menu">
+					<div class="search-lang">
+					
+					
+						<div class="siteiciarama siteiciaramaUst" id="siteiciaramaUst" style="display:none">
+							<div class="row">
+								<div class="col-md-8 col-xs-9">
+									<input class="siteiciaramaInput" name="txtSearch" onkeypress="Search__CheckSearchKey(149)" placeholder="Aranacak Kelimeyi Giriniz">
+								</div>
+								<div class="col-md-3 col-xs-3">
+									<button type="button" class="siteiciaramaBtn" onclick="Search__GenerateSearch(149,'tr-TR')" id="IMG1">Ara</button>
+								</div>
+							</div>
+						</div>
+						
+					
+						<div class="search">
+						
+						<a href="#" id="topSearchLink">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg>
+						</a>
+						
+						<script>
+                            document.getElementById("topSearchLink").onclick = function () {
+                                if (document.getElementById("siteiciaramaUst").style.display == "none") {
+                                    document.getElementById("siteiciaramaUst").style.display = "block"
+                                    console.log("1")
+                                }
+                                else {
+                                    document.getElementById("siteiciaramaUst").style.display = "none"
+                                    console.log("2")
+                                }
+                            };
+                        </script>
+						</div>
+						<div class="languages">
+							<div class="active">TR</div>
+							<a href="Default.aspx?pageID=449">EN</a>
+						</div>
+					</div>
+				</div>
+				<div class="middle-menu">
+					<div class="logo">
+						<a href="../../../default.aspx?pageId=66" title="Türkiye Futbol Federasyonu">
+							<img src="App_Themes/TFF_Gri/Images/2022/logo.png" alt="Türkiye Futbol Federasyonu" />
+						</a>
+					</div>
+					<h1 class="h1-title"><img class="tffLogoText" src="/App_Themes/TFF_Gri/Images/design/tfflogotext.png"/></h1>
+					<div class="quick-links">
+						<div class="q-link"><a href="Default.aspx?pageID=80">TRENDYOL SÜPER LİG</a></div>
+						<div class="q-link"><a href="Default.aspx?pageID=288">ZİRAAT TÜRKİYE KUPASI</a></div>
+						<div class="q-link"><a href="https://eshop.tff.org/" target="_blank">E-SHOP</a></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Ust Linkler-->
+		<nav class="row red-line">
+			<div class="container">
+				<div class="main-links">
+					
+					
+					<div class="mobile-menu">
+						<div class="m-menu">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+						</div>
+					</div>
+					<ul id="nav-menu">
+						<li><a href="default.aspx?pageId=66" id="ctl00_a1" class="active"><span>ANA SAYFA</span></a></li>
+						<li><a href="default.aspx?pageID=71" id="ctl00_a2"><span>TFF</span></a></li>
+						<li><a href="default.aspx?pageID=95" id="ctl00_a3"><span>MİLLİ TAKIMLAR</span></a></li>
+						<li><a href="default.aspx?pageID=86" id="ctl00_a4"><span>LİGLER</span></a></li>
+						<li><a href="default.aspx?pageID=88" id="ctl00_a5"><span>KUPALAR</span></a></li>
+						<li><a href="default.aspx?pageID=89" id="ctl00_a6"><span>FGD</span></a></li>
+						<li><a href="default.aspx?pageID=328" id="ctl00_a7"><span>BİLGİ BANKASI</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Ust Linkler Sonu-->
+		<div class="container TPaneContainer">
+		
+		
+		</div>
+		
+		<div class="row">
+        <div class="container homeContainer">
+            
+
+            <section class="right-container">
+
+                <article class="last-minute-container" style="display:none">
+                    <div class="lm-title">SON DAKIKA..”</div>
+                    <div class="lm-content">
+                        <ul>
+                            <li><a href="#">U17 Kız Milli Takımı'ndan Zafer Bayramı kutlaması</a></li>
+                            <li><a href="#">'Kuralina Göre' Programi beIN SPORTS'ta başlıyor</a></li>
+                            <li><a href="#">U18 Milli Takımımız, Azerbaycan karşısında</a></li>
+                            <li><a href="#">U18 Milli Takımımız, Azerbaycan karşısında</a></li>
+                        </ul>
+                    </div>
+                    <div class="lm-last">”</div>
+                </article>
+
+               
+
+                <article class="news-container homeNewsContainer">
+                    <div id="ctl00_MPane_m_66_10104_ctnr_div" style="padding:0 0 15 0;vertical-align:top;text-align:left;"><div id="ctl00_MPane_m_66_10104_ctnr_title" class="moduleTitle"></div><a href="https://www.youtube.com/embed/62qrfObhTxk?si=sUH3EJVaWUf8Kzf3?rel=0" target="_blank"><img border="0" alt="" src="Resources/TFF/Images/european-qualifiers-goals-youtube-banner.png" width="100%"></a></div><div id="ctl00_MPane_m_66_5514_ctnr_div" style="padding:0 0 15 0;vertical-align:top;text-align:left;"><div id="ctl00_MPane_m_66_5514_ctnr_title" class="moduleTitle"></div>
+
+					
+<div class="swiperOuter">				
+<div class="swiper">
+  <div class="swiper-wrapper">
+
+
+									<div class="swiper-slide">
+										
+										<a href='/default.aspx?pageID=600&ftxtID=2966' title="Haftanın Programı">
+										<div class="banner-item">
+											<div class="b-image">
+												
+													<img src="https://www.tff.org/Resources/TFF/Auto/dc991353ae844fe29a513af6a49e7b2a.jpg" alt="Haftanın Programı" />
+												
+											</div>
+											<div class="b-content">
+												
+												<div class="b-title">Haftanın Programı</div>
+												
+												<div class="b-text">Trendyol S&uuml;per Lig 13. hafta m&uuml;sabakaları 25, 26 ve 27 Kasım'da,&nbsp; Trendyol 1. Lig 13. hafta m&uuml;sabakaları 24, 25, 26 ve 27 Kasım'da, TFF 2. Lig 15. hafta m&uuml;sabakaları 25 ve 26 ......</div>
+											</div>
+										</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										
+										<a href='/default.aspx?pageID=202&ftxtID=42755' title="GALLER 1-1 TÜRKİYE<br>Almanya'daki Finallere Lider Gidiyoruz">
+										<div class="banner-item">
+											<div class="b-image">
+												
+													<img src="https://www.tff.org/Resources/TFF/Auto/b7f5612576684cb1a608e2f99b58631c.jpg" alt="GALLER 1-1 TÜRKİYE<br>Almanya'daki Finallere Lider Gidiyoruz" />
+												
+											</div>
+											<div class="b-content">
+												
+												<div class="b-title">GALLER 1-1 TÜRKİYE<br>Almanya'daki Finallere Lider Gidiyoruz</div>
+												
+												<div class="b-text">A Millî Takımımız, UEFA 2024 Avrupa Şampiyonası elemeleri D Grubu sekizinci ve son maçında deplasmanda Galler ile 1-1 berabere kalarak tarihte ilk kez büyük bir turnuvanın......</div>
+											</div>
+										</div>
+										</a>
+									</div>
+								
+									<div class="swiper-slide">
+										
+										<a href='/default.aspx?pageID=202&ftxtID=42747' title="Vincenzo Montella: "Lider Geldik, Lider Dönmek İstiyoruz"">
+										<div class="banner-item">
+											<div class="b-image">
+												
+													<img src="https://www.tff.org/Resources/TFF/Auto/78dfe3884e584f7197e697b51738d572.jpg" alt="Vincenzo Montella: "Lider Geldik, Lider Dönmek İstiyoruz"" />
+												
+											</div>
+											<div class="b-content">
+												
+												<div class="b-title">Vincenzo Montella: "Lider Geldik, Lider Dönmek İstiyoruz"</div>
+												
+												<div class="b-text">UEFA 2024 Avrupa Futbol Şampiyonası (EURO 2024) Elemeleri D Grubu sekizinci ve son haftasında yarın deplasmanda Galler ile karşı karşıya gelecek A Milli Takım'ın teknik direktörü Vincenzo......</div>
+											</div>
+										</div>
+										</a>
+									</div>
+								
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-scrollbar"></div>
+</div>	
+ </div>				
